@@ -1,5 +1,8 @@
 ## Start 
 
-npm install to install Jest package
-"npm test" to run Jest test suite
+To start the Jest test suite:
 
+```bash
+npm install
+npm test
+```
