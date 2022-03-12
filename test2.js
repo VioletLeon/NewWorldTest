@@ -2,7 +2,7 @@
 
 const sortWeight = (string) => {
   if (typeof string !== 'string') return 'Not a string';
-  if (string.length < 2) return string;
+  if (string === '') return string;
 
   const dict = new Map();
 

@@ -35,6 +35,8 @@ describe('Validate Numbers', () => {
   const cases = [
     ['-10 20 H20', '-10'],
     ['20W 340 250', '20W'],
+    ['w', 'w'],
+    ['?', '?'],
   ];
   test.each(cases)(
     'given %p as arguement should return "is not a valid number"',
