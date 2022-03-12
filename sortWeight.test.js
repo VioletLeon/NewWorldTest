@@ -45,7 +45,7 @@ describe('Validate Numbers', () => {
   );
 });
 
-describe('Validate Numbers', () => {
+describe('Sort based on string comparison if weighted values are the same', () => {
   const cases = [
     ['1 90 10 100 1000 180', '1 10 100 1000 180 90'],
     [
@@ -63,7 +63,7 @@ describe('Validate Numbers', () => {
   );
 });
 
-describe('Validate Numbers', () => {
+describe('One int should return the one int', () => {
   const cases = [
     ['1', '1'],
     ['20', '20'],

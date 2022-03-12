@@ -53,7 +53,7 @@ describe("Mutate all ints if there's less than 4", () => {
   );
 });
 
-describe("Mutate all ints if there's less than 4", () => {
+describe('No mutations if there are no ints', () => {
   const cases = [
     ['FASDAOKAPOK', 'FASDAOKAPOK'],
     ['Hello World', 'Hello World'],
@@ -70,7 +70,7 @@ describe("Mutate all ints if there's less than 4", () => {
   );
 });
 
-describe("Mutate all ints if there's less than 4", () => {
+describe('No mutations on special characters', () => {
   const cases = [
     ['FASDAO?@#!APOK', 'FASDAO?@#!APOK'],
     ['Hello%$#Wo***r(l)d', 'Hello%$#Wo***r(l)d'],
