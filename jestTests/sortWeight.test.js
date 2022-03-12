@@ -1,7 +1,7 @@
 // WRITTEN BY: VIOLET LEON
 
 const { expect, test, describe } = require('@jest/globals');
-const sortWeight = require('./test2');
+const sortWeight = require('../test2');
 
 // MASK SORT WEIGHT ( TEST #2 )
 

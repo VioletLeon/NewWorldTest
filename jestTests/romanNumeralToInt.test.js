@@ -1,7 +1,7 @@
 // WRITTEN BY: VIOLET LEON
 
 const { expect, test, describe } = require('@jest/globals');
-const romanNumeralTranslate = require('./test3');
+const romanNumeralTranslate = require('../test3');
 
 // MASK SORT WEIGHT ( TEST #3 )
 
@@ -30,7 +30,7 @@ describe('Should only accept strings', () => {
   const expectedResult = 'Not a string';
 
   test.each(cases)(
-    'given %p as argument should return "Not a string"',
+    `given %p as argument should return  ${expectedResult}`,
     (argument) => {
       const result = romanNumeralTranslate(argument);
       expect(result).toBe(expectedResult);
@@ -47,7 +47,7 @@ describe('Validate Roman Numeral', () => {
   const expectedResult = 'Not a valid roman numeral';
 
   test.each(cases)(
-    'given %p as argument should return "Not a valid roman numeral"',
+    `given %p as argument should return ${expectedResult}`,
     (argument) => {
       const result = romanNumeralTranslate(argument);
       expect(result).toBe(expectedResult);

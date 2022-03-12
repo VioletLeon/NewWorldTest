@@ -1,7 +1,7 @@
 // WRITTEN BY: VIOLET LEON
 
 const { expect, describe, test } = require('@jest/globals');
-const maskString = require('./test1');
+const maskString = require('../test1');
 
 // MASK STRING TESTS ( TEST #1 )
 describe('Original Test Case', () => {
