@@ -1,5 +1,11 @@
 // WRITTEN BY: VIOLET LEON
 
+/**
+ * [Will translate roman numeral to an interger]
+ * @param  {[string]} string [A string containing roman numerals]
+ * @return {[integer]}      [The translated roman numeral]
+ */
+
 const romanNumeralTranslate = (string) => {
   if (typeof string !== 'string') return 'Not a string';
 

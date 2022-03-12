@@ -1,5 +1,11 @@
 // WRITTEN BY: VIOLET LEON
 
+/**
+ * [Will sort values in a string seperated by a " " based on their weighted value]
+ * @param  {[string]} string [A string containing numbers seperated by " "]
+ * @return {[string]}      [A string that is sorted by their weighted values]
+ */
+
 const sortWeight = (string) => {
   if (typeof string !== 'string') return 'Not a string';
   if (string === '') return string;
@@ -25,6 +31,12 @@ const sortWeight = (string) => {
     .map((dictArray) => dictArray[0])
     .join(' ');
 };
+
+/**
+ * [Helper function that will reduce the numbers]
+ * @param  {[string]} string [A string containing numbers/s]
+ * @return {[interger]}      [The reduced numbers]
+ */
 
 function stringToWeight(string) {
   let weightedValue = 0;

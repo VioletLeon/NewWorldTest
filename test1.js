@@ -1,5 +1,11 @@
 // WRITTEN BY: VIOLET LEON
 
+/**
+ * [Will mask the last 4 numbers in a string with "*"]
+ * @param  {[string]} arg1 [A string with characters are numbers]
+ * @return {[string]}      [Mutated string with the last 4 numbers masked]
+ */
+
 const maskString = (string) => {
   if (typeof string !== 'string') return 'Not a string';
 
